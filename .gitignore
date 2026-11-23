@@ -1,0 +1,18 @@
+# Rust build outputs
+/target/
+**/*.rs.bk
+*.pdb
+
+# Built local binaries (distributed via GitHub Releases instead of Git history)
+/*.exe
+Rustcord.exe
+Rustcord.old.exe
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.tmp
